@@ -36,16 +36,7 @@
 .third{
     width: 100%;
     height: 25%;
-    background-color: rgb(255, 255, 255);
     padding: 10px;
-}
-
-.t-left{
-    display: none;
-}
-.t-right{
-    width: 100%;
-    height: 100%;
     background-color: rgb(96, 151, 0);
 }
 
@@ -57,10 +48,10 @@
     }
     .s-child{
         height: 100%;
-        width: 50%;
+        width: 20%;
     }
 }
-
+ 
 @media (min-width : 1024px) {
 
    .first{
@@ -70,7 +61,7 @@
     height: 33%;
    }
    .s-left{
-    width: 30%;
+    width: 70%;
    }
    .s-right{
     width: 30%;
