@@ -3,35 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Responsive Layout</title>
     <link rel="stylesheet" href="index.css">
-    <title>Responsiveness</title>
 </head>
 <body>
 
-            <div class="d1">
+    <div class="container">
+        <header class="header">
+            I'm Header
+        </header>
 
-                        <section class="first">I'm Header
-                            <section class="first-child" >
-                                <div class="f-left">Left</div>
-                                <div class="f-right">Right</div>
-                            </section>
-                        </section>
+        <nav class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
 
-                        <section class="second">
+        <main class="content-wrapper">
+            <aside class="left-sidebar">
+                I'm Left Sidebar
+            </aside>
 
-                                    <div class="s-left s-child"></div>
-                                    <div class ="s-middle s-child">
-                                        <div class="s-middle-left"></div>
-                                        <div class="s-middle-right"></div>
-                                    <div class="s-right s-child"></div>
+            <article class="main-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+            </article>
 
-                        </section>
-
-                        <section class="third">
-
-                        </section>
-
+            <aside class="right-sidebar">
+                I'm Right Sidebar
+            </aside>
+            
+            <div class="footer-widgets">
+                <div class="footer-widget footer-widget-1">I'm Left Sidebar</div>
+                <div class="footer-widget footer-widget-2">I'm Right Sidebar</div>
             </div>
-    
+        </main>
+
+        <footer class="footer">
+            I'm Footer
+        </footer>
+    </div>
+
 </body>
 </html>
